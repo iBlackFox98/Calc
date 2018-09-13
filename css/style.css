@@ -1,0 +1,94 @@
+body{
+	background-color: #1A82A6;
+	background-image: linear-gradient(to left, #1A82A6, #27AF7B);
+	height: 100vh;
+}
+.title{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.calc{
+	background-color: #000000;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 6px;
+
+}
+
+.screen-result{
+	background-color: #908E8E;
+	color: white;
+	text-align: right;
+	font-size: 30px;
+	padding: 8px;
+	padding-right: 27px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+}
+
+.row{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.col, .col-2{
+	float: left;
+	width: 55px;
+	text-align: center;
+	padding: 10px;
+}
+
+.col-2{
+	width: 130px;
+}
+
+.btn:hover{
+	cursor: pointer;
+}
+
+.btn{
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	border:none;
+	transition: 0.3s;
+}
+
+.btn-default:hover{
+	background-color: #7B7878;
+}
+.btn-default{
+	background-color: #A5A5A5;
+	color: #00000;
+}
+
+.btn-operator:hover{
+	background-color: #c36e14;
+}
+
+.btn-operator{
+	background-color: #FC9426;
+	color: white;
+}
+
+.btn-number{
+	color: white;
+	background-color: #323232;
+}
+
+.btn-number:hover{
+	background-color: #272727;
+}
+
+.btn-large{
+	border-radius: 25px;
+	width: 121px;
+	text-align: left;
+	padding-left: 16px;
+
+}
